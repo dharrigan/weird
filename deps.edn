@@ -1,0 +1,17 @@
+{:paths ["src" "resources"]
+
+ :deps {org.clojure/clojure {:mvn/version "1.11.0-rc1"}
+        ;;
+        ;; And all the rest...
+        ;;
+        buddy/buddy-auth {:mvn/version "3.0.323"}
+        ch.qos.logback/logback-classic {:mvn/version "1.2.11"}
+        org.codehaus.janino/commons-compiler {:mvn/version "3.1.6"}
+        org.codehaus.janino/janino {:mvn/version "3.1.6"}
+        org.slf4j/jcl-over-slf4j {:mvn/version "1.7.36"}
+        org.slf4j/jul-to-slf4j {:mvn/version "1.7.36"}
+        org.slf4j/log4j-over-slf4j {:mvn/version "1.7.36"}
+        org.slf4j/slf4j-api {:mvn/version "1.7.36"}
+        ring/ring-jetty-adapter {:mvn/version "1.9.5"}}
+
+ :aliases {:dev {:extra-paths ["dev/src"]}}}
